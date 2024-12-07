@@ -1,0 +1,151 @@
+*{
+margin: 0px;
+    }
+    body{
+        background-color: #d3e0e0;
+    }
+    header{
+        background-color: #37af57;
+        height: 60px;
+        color: white;
+        padding: 10px;
+        }
+        .menu{
+            width: 35%;
+            position: absolute;
+            right: 0;
+            top: 15px;
+        }
+        header h1{
+            position: absolute;
+            top: 20px;
+            left: 10px;
+            color: #26382b;
+        }
+        header .imgheader{
+            display: center;
+            width: 60px;
+            height: 50px;
+            position: absolute;
+            left: 250px;
+            top: 15px;
+            }
+        ul{
+            list-style: none;
+
+        }
+        li{
+            display: inline-block;
+            padding: 15px;
+            
+        }
+        .elementos{
+            text-decoration: none;
+            color: #26382b;
+        }
+
+
+
+        h1{
+            color: #26382b;
+            
+        }
+p{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.img1{
+   border-radius: 30px;
+   width: 400px;
+   height: 400px;
+}
+
+
+
+
+        .animacion{
+            background-color: #26382b;
+            width: 150px;
+            height: 150px;
+            animation: mover 3s infinite;
+        }
+        
+        @keyframes mover{
+            0%{
+                transform: rotateX(30deg);
+        
+            }
+            50%{
+                background-color: #37af57;
+                border-radius: 100%;
+            }
+            100%{
+                transform: rotateX(360deg);
+            }
+        }
+
+
+
+
+@media screen and (max-width: 932px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+
+        width: 100%;
+        height: 200px;
+    }
+
+    
+    .menu ul{
+        flex-direction: column;
+        gap: 10px;
+        width: 80%;
+    }
+
+    .primerparrafo {
+        padding: 0 10px;
+    }
+    h1 {
+        padding: 0 25px;
+    }
+    .img1{
+        padding: 0 35px;
+        width: 350px;
+    }
+    footer  {
+        
+        flex-direction: column;
+        text-align: center;
+
+        width: 100%;
+        height: 200px;
+    }
+
+}
+
+
+
+
+
+
+
+
+        footer{
+            background-color: #37af57;
+            color: #26382b;
+          display: grid;
+          min-height: 100bvh;
+          grid-template-rows: auto 1fr auto;
+            bottom: 0;
+            height: 100px;
+            width: 100%;
+        }
+        
+        footer h1{
+            color: #26382b;
+            text-align: center;
+        
+            
+        }

@@ -1,0 +1,190 @@
+*{
+  margin: 0px;
+      }
+      body{
+          background-color: #d3e0e0;
+      }
+      header{
+          background-color: #37af57;
+          height: 60px;
+          color: white;
+          padding: 10px;
+          }
+          .menu{
+              width: 35%;
+              position: absolute;
+              right: 0;
+              top: 15px;
+          }
+          header h1{
+              position: absolute;
+              top: 20px;
+              left: 10px;
+              color: #26382b;
+          }
+          header .imgheader{
+              display: center;
+              width: 60px;
+              height: 50px;
+              position: absolute;
+              left: 250px;
+              top: 15px;
+              }
+          ul{
+              list-style: none;
+  
+          }
+          li{
+              display: inline-block;
+              padding: 15px;
+              
+          }
+          .elementos{
+              text-decoration: none;
+              color: #26382b;
+          }
+
+
+          
+       
+
+
+
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 180px;
+                justify-content: center;
+                
+              }
+              
+              .carta {
+                background: #fff;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                width: 250px;
+                padding: 20px;
+                text-align: center;
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+              }
+              
+              .carta:hover {
+                transform: scale(1.05);
+                box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+              }
+              
+              .carta img {
+                width: 100%;
+                height: auto;
+                margin-bottom: 15px;
+              }
+              
+              .carta h3 {
+                font-size: 1.2rem;
+                margin-bottom: 10px;
+              }
+              
+              .carta p {
+                font-size: 0.9rem;
+                color: #555;
+                margin-bottom: 15px;
+              }
+              
+              .precio {
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: #4caf50;
+                margin-bottom: 10px;
+                transition: color 0.3s ease;
+              }
+              
+              .carta:hover .precio {
+                color: #26382b;
+              }
+              
+              button {
+                background: #4caf50;
+                color: #fff;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background 0.3s ease;
+              }
+              
+              button:hover {
+                background: #26382b;
+              }
+
+
+
+
+
+              @media screen and (max-width: 932px) {
+                header {
+                    flex-direction: column;
+                    text-align: center;
+            
+                    width: 100%;
+                    height: 200px;
+                }
+            
+                
+                .menu ul{
+                    flex-direction: column;
+                    gap: 10px;
+                    width: 80%;
+                }
+            
+                .primerparrafo {
+                    padding: 0 10px;
+                }
+                h1 {
+                    padding: 0 25px;
+                }
+                .img1{
+                    padding: 0 35px;
+                    width: 350px;
+                }
+                footer  {
+                    
+                    flex-direction: column;
+                    text-align: center;
+            
+                    width: 100%;
+                    height: 200px;
+                }
+            
+            }
+            
+
+            
+
+            
+
+
+
+
+
+
+
+
+
+
+              footer{
+                background-color: #37af57;
+                color: #26382b;
+              display: grid;
+              min-height: 100bvh;
+              grid-template-rows: auto 1fr auto;
+                bottom: 0;
+                height: 100px;
+                width: 100%;
+            }
+            
+            footer h1{
+                color: #26382b;
+                text-align: center;
+            
+                
+            }
